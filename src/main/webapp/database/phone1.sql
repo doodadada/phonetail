@@ -26,5 +26,6 @@ CREATE TABLE address
 	dong varchar(30) NOT NULL,
 	bunji varchar(20),
 	zip_code varchar(30)
+	ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci);
